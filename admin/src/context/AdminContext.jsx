@@ -17,7 +17,7 @@ const AdminContextProvider = (props) => {
     latestAppointments: [],
   });
 
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = "https://prescripto-backend-bsob.onrender.com";
 
   const getAllDoctors = async () => {
     try {
