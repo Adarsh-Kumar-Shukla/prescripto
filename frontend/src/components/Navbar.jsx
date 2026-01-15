@@ -117,7 +117,7 @@ const Navbar = () => {
               onClick={() => setShowMenu(false)}
               to="/about"
             >
-              <p className="px-4 py-2 rounded inline-block ">ABOUT</p>
+              <p className="px-4 py-2 rounded inline-block ">ABOUTS</p>
             </NavLink>
             <NavLink
               onClick={() => setShowMenu(false)}
